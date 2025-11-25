@@ -1,0 +1,12 @@
+// territorio.h
+#ifndef TERRITORIO_H
+#define TERRITORIO_H
+
+typedef struct Territorio {
+    char nome[30];
+    char cor[10];  // Cor do jogador que controla o território
+    int tropas;
+} Territorio;
+
+#endif
+c
